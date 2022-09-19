@@ -1,6 +1,6 @@
 module.exports = {
   email: 'sc4724@columbia.edu',
-
+  siteTitle: 'Sixian Chen | Data Scientist | Problem Solver',
   socialMedia: [
     {
       name: 'GitHub',

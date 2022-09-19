@@ -9,8 +9,7 @@ tech:
   - PyOD
 ---
 
-Utilized Python to create 15 features that capture abnormal transactions based on the R-F-M principle.
+Created insightful features based on Recency, Frequency, Monetary Value (RFM) principal.
 
-Trained unsupervised learning models (K-nearest neighbors, Auto Encoder, IsolationForest) using Oklahoma public credit card statements.
-
-Captured and validated 1% anomalies from over 400,000 transaction records based on summary statistics, greatly reducing man-hours spent on fraud investigations.
+Used advanced unsupervised learning models (K-nearest neighbors, Auto Encoder, IsolationForest) to capture
+fraud transactions.
