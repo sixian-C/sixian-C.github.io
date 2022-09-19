@@ -2,10 +2,10 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Sixian Chen <sc4724@columbia.edu>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/sixian-C/sixian-C.github.io"
   },
   "keywords": [
     "gatsby"
@@ -20,6 +20,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
+    "deploy": "gatsby build && gh-pages -d public",
     "lint-staged": "lint-staged"
   },
   "lint-staged": {
@@ -34,6 +35,7 @@
     "animejs": "^3.1.0",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^3.4.1",
+    "gatsby-cli": "^4.23.0",
     "gatsby-plugin-google-analytics": "^3.4.0",
     "gatsby-plugin-image": "^1.4.0",
     "gatsby-plugin-manifest": "^3.4.0",
@@ -72,6 +74,7 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.23.2",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^4.0.0",
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
